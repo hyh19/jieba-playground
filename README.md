@@ -20,13 +20,14 @@ pip install pipenv
 pipenv --python 3.7.10
 
 # 安装依赖库
-pipenv install jieba
+pipenv install jieba paddlepaddle-tiny
 
 # 启动虚拟环境
 pipenv shell
 
 # 运行示例代码
-pipenv example.py
+# 注意：每次运行代码都要启动虚拟环境
+python example.py
 
 # 退出虚拟环境
 exit
